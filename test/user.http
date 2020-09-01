@@ -1,0 +1,10 @@
+GET http://localhost:7000/users/find/all
+
+POST http://localhost:7000/users/add
+
+{
+    "id": 1,
+    "username": "goldroger",
+    "name": "Gol D. Roger",
+    "position": "Pirate King"
+}
